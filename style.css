@@ -1,0 +1,107 @@
+/* styles.css */
+@import url('https:fronts.googleapis.com/css2?family=Poppins:wight@400;500;600;700;800&display=swap');
+/* Estilos generales */
+body {
+    font-family: 'Poopins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efecec;
+    color: #2c3e50;
+}
+
+/* Estilo del encabezado */
+header {
+    background: #4d8432;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/* Estilos de la navegación */
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #8eb88e;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px hsla(0, 17%, 8%, 0.1);
+}
+
+h2 {
+    color: #3c6c22;
+}
+
+
+/* Estilo de la galería */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container img {
+    max-width: 30%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color:#283a03;
+    text-align: center;
+    
+}
+
+.about{
+    font-size: 16px;
+    color:#283a03;
+    text-align: center;
+}
+.gallery{
+    font-size: 16px;
+    color:#283a03;
+    text-align: center;
+}
+.contact{
+    font-size: 16px;
+    color:#283a03;
+    text-align: center;
+}
+.inicio{ font-size: 16px;
+    color:#283a03;
+    text-align: center;
+}
+.enca{
+    font-size: 16px;
+    color:#283a03;
+    text-align: center;
+    
+}
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #283a03;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
